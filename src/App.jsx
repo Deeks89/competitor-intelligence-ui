@@ -36,7 +36,7 @@ export default function App() {
   async function handleAnalyze(competitorId) {
     setAnalyzing(prev => ({ ...prev, [competitorId]: true }))
     try {
-      const res = await axios.post(`${API_BASE}/api/analysis/${competitorId}`)
+      const res = await axios.post(`${API_BASE}/api/analysis/${competitorId}/run`)
       setAnalyses(prev => ({ ...prev, [competitorId]: res.data }))
     } catch (e) {
       setError(`Failed to analyze competitor ${competitorId}`)
