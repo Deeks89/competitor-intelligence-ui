@@ -308,7 +308,7 @@ export default function App() {
           Who are you<br />competing with?
         </h1>
         <p style={styles.heroSub}>
-          Enter a company and industry. Claude will identify top competitors, scrape their sites,
+          Enter a company and industry. Competitor Intelligence Tool will identify top competitors, scrape their sites,
           and extract pricing, features, and positioning signals.
         </p>
 
