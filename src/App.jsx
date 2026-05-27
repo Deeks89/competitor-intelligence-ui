@@ -56,6 +56,8 @@ const styles = {
     lineHeight: "1.6",
     margin: "0 0 40px",
     maxWidth: "480px",
+    textAlign: "center",
+    margin: "0 auto 40px",
   },
   inputRow: {
     display: "flex",
@@ -151,6 +153,8 @@ const styles = {
     margin: "8px 0 0",
     lineHeight: "1.5",
     maxWidth: "480px",
+    textAlign: "center",
+    margin: "0 auto 40px",
   },
   analyzeBtn: {
     background: "transparent",
