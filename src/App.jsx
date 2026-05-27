@@ -446,6 +446,15 @@ export default function App() {
                       </div>
 
                       {/* Target Market */}
+                      {analyses[comp.id].g2_rating && (
+                        <div style={styles.analysisBlock}>
+                          <p style={styles.analysisBlockLabel}>G2 Rating</p>
+                          <p style={styles.targetText}>
+                            ⭐ {analyses[comp.id].g2_rating} / 5.0
+                            {analyses[comp.id].g2_review_count && ` · ${analyses[comp.id].g2_review_count.toLocaleString()} reviews`}
+                          </p>
+                        </div>
+                      )}
                       {analyses[comp.id].target_market && (
                         <div style={styles.analysisBlock}>
                           <p style={styles.analysisBlockLabel}>Target market</p>
