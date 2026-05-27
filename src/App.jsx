@@ -16,7 +16,7 @@ const styles = {
     padding: "24px 48px",
     display: "flex",
     alignItems: "center",
-    justifyContent: "space-between",
+    justifyContent: "center",
   },
   logo: {
     fontSize: "13px",
@@ -30,6 +30,8 @@ const styles = {
   },
   hero: {
     padding: "80px 48px 48px",
+    textAlign: "center",
+    margin: "0 auto",
     maxWidth: "720px",
   },
   heroLabel: {
@@ -127,7 +129,7 @@ const styles = {
     padding: "20px 24px",
     display: "flex",
     alignItems: "center",
-    justifyContent: "space-between",
+    justifyContent: "center",
     cursor: "pointer",
   },
   cardName: {
@@ -204,7 +206,7 @@ const styles = {
     padding: "16px 20px",
     display: "flex",
     alignItems: "center",
-    justifyContent: "space-between",
+    justifyContent: "center",
     gap: "16px",
   },
   pricingModel: {
