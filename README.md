@@ -1,16 +1,24 @@
-# React + Vite
+# Competitor Intelligence UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React frontend for the Competitor Intelligence Tracker — an AI-powered tool that discovers and analyzes competitors using Claude and Firecrawl.
 
-Currently, two official plugins are available:
+**Live:** [competitor-intelligence-ui-eight.vercel.app](https://competitor-intelligence-ui-eight.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Backend repo
+[github.com/Deeks89/competitor-intelligence-api](https://github.com/Deeks89/competitor-intelligence-api) — FastAPI + PostgreSQL + Claude + Firecrawl
 
-## React Compiler
+## Stack
+- React + Vite
+- Axios for API calls
+- Deployed on Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Running locally
 
-## Expanding the ESLint configuration
+```bash
+git clone https://github.com/Deeks89/competitor-intelligence-ui
+cd competitor-intelligence-ui
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Set `API_BASE` in `src/App.jsx` to `http://localhost:8000` for local development.
